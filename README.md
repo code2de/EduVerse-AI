@@ -1,20 +1,279 @@
-<<<<<<< HEAD
-# React + Vite
+# EduVerse AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Enter. Explore. Learn.**
 
-Currently, two official plugins are available:
+EduVerse AI is an immersive AI-powered teaching workspace that transforms lesson preparation into an interactive 3D learning experience. Built using Google Gemini Canvas and modern web technologies, it enables teachers to generate complete classroom resources and explore them inside a procedurally generated educational world instead of navigating traditional dashboards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Demo:** https://edu-verse-ai-neon.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the Oxlint configuration
+EduVerse AI reimagines lesson preparation by combining AI-assisted content generation with immersive interaction design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# EduVerse-AI
->>>>>>> 25cca6c4193dc2c20e7b958c0f51dc99fee67620
+Teachers configure their classroom requirements through a streamlined onboarding experience, after which the application generates a subject-specific learning world containing pedagogically structured teaching resources.
+
+Rather than presenting information through conventional menus and documents, educational content is organized as explorable locations inside an interactive voxel-inspired environment.
+
+---
+
+## Key Features
+
+### Immersive Onboarding Experience
+
+Teachers configure:
+
+- Grade
+- Subject
+- Topic
+- Curriculum Board
+- Language
+- Teaching Duration
+- Student Count
+- Learning Level
+- Teaching Style
+- Primary Learning Goal
+- Bloom's Taxonomy Level
+- Special Learning Needs
+
+They can also choose which classroom resources to generate:
+
+- Lesson Plans
+- Quizzes
+- Worksheets
+- Homework
+- Activities
+- Parent Reports
+- Translations
+
+---
+
+### Subject-Based Learning Worlds
+
+Each subject generates a unique procedurally constructed biome.
+
+**Mathematics**
+- Night environment
+- Crystal caves
+- Mathematical constellations
+- Floating equations
+- Illuminated temples
+
+**Science**
+- Bioluminescent rainforest
+- Waterfalls
+- DNA animations
+- Treehouse laboratories
+
+**English Literature**
+- Cherry blossom village
+- Floating poetry
+- Lantern-lit pathways
+
+**History**
+- Ancient ruins
+- Stone bridges
+- River canals
+- Step pyramids
+
+**Computer Science**
+- Cyber-inspired city
+- Server towers
+- Matrix code rain
+- Digital architecture
+
+---
+
+## Interactive Learning Spaces
+
+Each biome contains seven dedicated educational environments.
+
+### Knowledge Temple
+
+- Lesson Plans
+- Learning Objectives
+- Teacher Notes
+- Socratic Prompts
+- Common Misconceptions
+
+### Challenge Tower
+
+- Interactive Assessments
+- Multiple Choice Questions
+- Short Answer Questions
+- Instant Feedback
+- Score Tracking
+
+### Crafting Workshop
+
+- Differentiated Worksheets
+- Easy
+- Medium
+- Advanced
+
+### Innovation Lab
+
+- Hands-on Activities
+- Classroom Projects
+- Experiments
+
+### Language Portal
+
+Instant lesson translation into
+
+- English
+- Tamil
+- Hindi
+- Kannada
+- Malayalam
+- Telugu
+
+### Village Hall
+
+- Parent Communication
+- Lesson Summaries
+
+### Reflection Garden
+
+- Exit Tickets
+- Self Assessment
+- Learning Analytics
+
+---
+
+## Navigation Experience
+
+EduVerse AI replaces conventional application navigation with an immersive exploration model.
+
+Features include:
+
+- Floating glass navigation drawer
+- Material Design navigation system
+- Cinematic GSAP camera transitions
+- Building-focused interactions
+- Context-aware overlays
+- Persistent 3D world rendering
+
+---
+
+## Educational Intelligence
+
+Generated content is structured using evidence-based educational frameworks including:
+
+- Universal Design for Learning (UDL)
+- Bloom's Taxonomy
+- Differentiated Instruction
+- Inquiry-Based Learning
+- Retrieval Practice
+- Formative Assessment
+
+---
+
+## Technology Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+### 3D Graphics
+
+- Three.js
+- React Three Fiber
+- Drei
+
+### Animation
+
+- GSAP
+
+### Physics
+
+- Rapier Physics
+
+### Styling
+
+- Glassmorphism
+- Material Design 3
+- Apple Vision Pro-inspired interface
+
+### AI
+
+- Google Gemini
+- Gemini Canvas
+
+### Deployment
+
+- Vercel
+
+---
+
+## Architecture
+
+```
+src/
+│
+├── App.jsx
+├── WorldCanvas.jsx
+├── Navigation.jsx
+├── Onboarding.jsx
+├── ContentOverlay.jsx
+├── VoxelAssets.jsx
+├── aiSimulator.js
+│
+├── Biomes/
+│   ├── MathBiome.jsx
+│   ├── ScienceBiome.jsx
+│   ├── EnglishBiome.jsx
+│   ├── HistoryBiome.jsx
+│   └── CSBiome.jsx
+│
+└── Components/
+```
+
+---
+
+## Core Experience
+
+1. Configure classroom requirements.
+2. Generate an immersive AI learning world.
+3. Enter a subject-specific biome.
+4. Explore educational buildings.
+5. Access AI-generated classroom resources.
+6. Navigate through cinematic camera transitions.
+7. Deliver differentiated classroom instruction.
+
+---
+
+## Performance
+
+The application is designed with performance-first rendering techniques.
+
+- Procedural voxel terrain generation
+- Instanced meshes
+- Modular GLB-ready architecture
+- Optimized rendering pipeline
+- Responsive interface
+- Smooth GSAP transitions
+
+---
+
+## Project Vision
+
+EduVerse AI explores how AI can move beyond document generation toward experience-driven education.
+
+Instead of asking teachers to adapt to AI tools, EduVerse AI adapts the learning environment around the teacher—combining immersive interaction, intelligent content generation, and modern educational research into a single workspace.
+
+---
+
+## Built With
+
+This project was developed as part of the **Google Student Ambassador Program** for the **Edu on Air 2026** showcase, exploring how Gemini Canvas can be used to build immersive educational tools through AI-assisted development.
+
+---
+
+## Live Demo
+
+https://edu-verse-ai-neon.vercel.app/
