@@ -6,6 +6,11 @@ EduVerse AI is an immersive AI-powered teaching workspace that transforms lesson
 
 **Live Demo:** https://edu-verse-ai-neon.vercel.app/
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/166e4693-3ac1-49ac-9d51-455f5f0db483" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59dd13d6-1af0-4c94-a7ac-d32394717eff" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17e076d5-c70c-4d7e-a04c-699f03225735" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c148ca5-7dfa-448c-ab51-af0161dbcae4" />
+
 ---
 
 ## Overview
